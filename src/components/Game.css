@@ -1,0 +1,33 @@
+.game-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  overflow: hidden;
+  cursor: none; /* Ocultar el cursor */
+}
+
+.crosshair {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 2px solid red;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.game-hud {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.target {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+  border-radius: 50%;
+}
